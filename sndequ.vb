@@ -88,7 +88,7 @@
 
         If (delta.Text < 0) Then errrs.Text = "(∀x∈R)"
 
-        If (delta.Text < 0) Then MsgBox("ERROR: Impossible to calculate this equation (no real solutions exist)")
+        If (delta.Text < 0) Then MsgBox("Impossible to calculate this equation (no real solutions exist)")
 
         If (delta.Text = 0) Then MsgBox("WARNING: This equation will have double results (in graphics, the lines will be superimposed)")
 
